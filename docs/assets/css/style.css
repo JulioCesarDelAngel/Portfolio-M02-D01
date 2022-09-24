@@ -105,7 +105,8 @@ ul{
   }
 /*Estilos para el banner*/
 
-/*para el contenido*/
+/*para el contenido #content div*/
+/*
 #content div {
     display: inline-flex;
     margin-top: 10px;
@@ -114,12 +115,27 @@ ul{
     width: 95%;
     line-height: 1.5em;
 }
+*/
+.contenido-div {
+    display: inline-flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 15px;
+    width: 95%;
+    line-height: 1.5em;
+}
+
+
+
+
 
 #content div h2 {
     min-width: 15%;
     border-right: 5px solid #2a607c;
     text-align: right;
     padding-right: 10px;
+    color: #2a607c;
+
 }
 p {
     margin-left: 10px;
@@ -141,4 +157,62 @@ p {
 #contact
 {
     align-items: center;
+}
+#contacto a
+{
+    text-decoration: 3px underline #2a607c;
+    text-underline-position: under;
+}
+
+/*para los proyectos*/
+#portafolio img{
+    display: flex;
+    border: 5px solid #a4c3c1;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+
+
+#portafolio a{
+    border: 10px;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+  
+  }
+
+  .flex-row {
+    padding: 5px;
+    flex: 100%;
+}
+
+.fila2 {     
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.flex-item-left {
+    padding: 5px;
+    flex: 50%;
+}
+
+.flex-item-right {
+    padding: 5px;
+    flex: 50%;
+}
+
+ /* Responsive layout - makes a one column-layout instead of a two-column layout */
+ @media (max-width: 800px) {
+    .flex-item-right, .flex-item-left {
+        flex: 100%;
+    }
 }
