@@ -1,11 +1,10 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
-    
+    margin: 0; 
 }
-/*estilos para el header y nav*/
 
+/*estilos para el header y nav*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -28,7 +27,6 @@
     font-size: 20px;
 }
 
-
 ul{ 
     list-style-type: none;
     display: flow-root;
@@ -44,13 +42,12 @@ ul{
     text-decoration: underline;
     cursor: pointer;
 }
+
 .header div ul li a {
     color:#ffffff;
     margin-left: 25px;
     text-decoration: none;
 }
-
-/*estilos para el header y nav*/
 
 /*Estilos para el banner*/
 .banner {
@@ -65,7 +62,6 @@ ul{
     position: relative;
     display: flex;
     justify-content: end;
-
 }
 .avatar {
     display: flex;    
@@ -97,26 +93,15 @@ ul{
     to {
       width: 100%;
     }
-  }
+}
 
-  @keyframes blink {
+@keyframes blink {
     50% {
       border-color: transparent;
     }
-  }
-/*Estilos para el banner*/
+}
 
 /*para el contenido #content div*/
-/*
-#content div {
-    display: inline-flex;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding-right: 15px;
-    width: 95%;
-    line-height: 1.5em;
-}
-*/
 .contenido-div {
     display: inline-flex;
     margin-top: 10px;
@@ -126,18 +111,14 @@ ul{
     line-height: 1.5em;
 }
 
-
-
-
-
 #content div h2 {
     min-width: 15%;
     border-right: 5px solid #2a607c;
     text-align: right;
     padding-right: 10px;
     color: #2a607c;
-
 }
+
 p {
     margin-left: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -159,13 +140,14 @@ p {
 {
     align-items: center;
 }
+
 #contacto a
 {
     text-decoration: 3px underline #2a607c;
     text-underline-position: under;
 }
 
-/*para los proyectos*/
+/*Seccion de portafolio*/
 #portafolio img{
     display: flex;
     border: 5px solid #a4c3c1;
@@ -178,19 +160,16 @@ p {
     width: 100%;
 }
 
-
 #portafolio a{
     border: 10px;
 }
 
-
 .flex-container {
     display: flex;
     flex-direction: column;
-  
-  }
+}
 
-  .flex-row {
+.flex-row {
     position: relative;
     padding: 5px;
     flex: 100%;
@@ -199,7 +178,6 @@ p {
 .fila2 {     
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .flex-item-left {
@@ -229,4 +207,4 @@ p {
     color: white;
     padding-left: 20px;
     padding-right: 20px;
-  }
+}
