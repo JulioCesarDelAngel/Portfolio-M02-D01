@@ -5,10 +5,10 @@
  Este proyecto busca proporcionar prototipos funcionales de los trabajos realizados.
  
  ## Tecnologias utilizadas
--MERN Stack
--Node/IoT
--React/JavaScript/Css
--HTML/CSS
+###### - MERN Stack
+###### - Node/IoT
+###### - React/JavaScript/Css
+###### - HTML/CSS
 
  
  ## Informe de errores
