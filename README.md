@@ -1,7 +1,5 @@
 [![Lernantino](https://github.com/JulioCesarDelAngel/Portfolio-M02-D01/blob/main/docs/assets/images/banner_portfolio.jpg "Lernantino")](https://juliocesardelangel.github.io/Portfolio-M02-D01/ "Lernantino")
 
-![](https://github.com/JulioCesarDelAngel/Horiseon-M01-D01/blob/main/docs/assets/images/banner_portfolio.png)
-
  # [Lernantino](https://juliocesardelangel.github.io/Portfolio-M02-D01/ "Julio César Del Ángel - Desarrollador FullStack ")
  
  Ingeniero de software, apasionado por la tecnología.
